@@ -22,7 +22,7 @@ const VOLTA = 'https://cdn.endover.ee/voltaskai';
 export const SOURCES = [
   // ── Hero ──────────────────────────────────────────────────────────────
   { key: 'hero-day', url: `${ERA_A}/6a25da81dce540a251389928_era-residence_gated-community_day.webp`,
-    alt: 'Courtyard and pool of a Verra Atelier residence in daylight' },
+    alt: 'Courtyard and pool of an Architect Portfolio residence in daylight' },
   { key: 'hero-night', url: `${ERA_A}/6a25da802c253b9e5e3d44f5_era-residence_gated-community_night.webp`,
     alt: 'The same courtyard after dusk, lit from within' },
   { key: 'hero-sky', url: `${ERA_A}/6a0fa3c6c9c3c584d9d78d85_img_clouds_02.avif`,

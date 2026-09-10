@@ -29,7 +29,7 @@ export function Nav() {
           document. With no positioned ancestor this resolves against the
           initial containing block, i.e. the top of the page. */}
       <header className="absolute inset-x-0 top-0 z-50 flex items-start justify-between px-[var(--gutter)] pt-5">
-        <Link href="/" className="pointer-events-auto -ml-1 block" aria-label="Verra Atelier, home">
+        <Link href="/" className="pointer-events-auto -ml-1 block" aria-label="Architect Portfolio, home">
           <LogoMark size={76} />
         </Link>
 

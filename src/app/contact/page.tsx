@@ -7,7 +7,7 @@ import { studio } from '@/content/studio';
 
 export const metadata: Metadata = {
   title: 'Contact',
-  description: 'Start a project with Verra Atelier.',
+  description: 'Start a project with Architect Portfolio.',
 };
 
 export default function ContactPage() {

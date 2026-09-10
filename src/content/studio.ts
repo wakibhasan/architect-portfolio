@@ -4,8 +4,8 @@
  */
 
 export const studio = {
-  name: 'Verra Atelier',
-  nameLines: ['VERRA', 'ATELIER'] as const,
+  name: 'Architect Portfolio',
+  nameLines: ['ARCHITECT', 'PORTFOLIO'] as const,
   script: 'Lisboa',
   discipline: 'Architecture & Interiors',
   founded: 2011,
@@ -23,7 +23,7 @@ export const studio = {
   contact: {
     phone: '+351 213 470 118',
     phoneHref: 'tel:+351213470118',
-    email: 'studio@verra-atelier.com',
+    email: 'studio@architect-portfolio.com',
     officeLabel: 'Studio',
     address: ['Rua da Boavista 84', '1200-068 Lisboa, Portugal'],
   },
@@ -55,13 +55,13 @@ export const studio = {
   quote: {
     text: 'A house should be quieter than the life inside it. We design the walls so the rooms can hold whatever happens in them for the next forty years.',
     role: 'Founding Partner',
-    company: 'Verra Atelier',
+    company: 'Architect Portfolio',
   },
 
   architecture: {
     statement:
       'Our work balances clean contemporary lines with Mediterranean warmth — stone that ages, timber that moves, and light that changes the room four times a day.',
-    creditLines: ['BY VERRA ATELIER', 'STRUCTURE — OCWA ENGINEERING'],
+    creditLines: ['BY ARCHITECT PORTFOLIO', 'STRUCTURE — OCWA ENGINEERING'],
   },
 
   detail: {
@@ -108,14 +108,14 @@ export const studio = {
      * the identity before the pitch (TECH-PLAN §11.1).
      */
     socials: [
-      { label: 'Instagram', href: 'https://instagram.com/verraatelier' },
-      { label: 'LinkedIn', href: 'https://linkedin.com/company/verra-atelier' },
-      { label: 'Pinterest', href: 'https://pinterest.com/verraatelier' },
+      { label: 'Instagram', href: 'https://instagram.com/architectportfolio' },
+      { label: 'LinkedIn', href: 'https://linkedin.com/company/architect-portfolio' },
+      { label: 'Pinterest', href: 'https://pinterest.com/architectportfolio' },
     ],
   },
 
   footer: {
-    legal: `© ${new Date().getFullYear()} Verra Atelier. All rights reserved.`,
+    legal: `© ${new Date().getFullYear()} Architect Portfolio. All rights reserved.`,
     links: [
       { label: 'Privacy', href: '/contact' },
       { label: 'Terms', href: '/contact' },

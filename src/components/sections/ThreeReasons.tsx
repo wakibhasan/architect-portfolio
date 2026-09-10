@@ -160,7 +160,7 @@ export function ThreeReasons() {
                 heading's arc much tighter than the dome it is supposed to sit
                 on, since that arc is drawn relative to the SVG's own width. */}
             <CurvedHeading
-              text={`THREE REASONS TO CHOOSE ${studio.nameLines[0]}`}
+              text={`THREE REASONS TO CHOOSE ${studio.name.toUpperCase()}`}
               className="w-full"
             />
             {/* flex-1 on both labels, not natural width. Sizing the row to its

@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     template: `%s — ${studio.name}`,
   },
   description:
-    'Verra Atelier is a Lisbon studio working across architecture and interiors — from the first sketch to the last handle.',
+    'Architect Portfolio is a Lisbon studio working across architecture and interiors — from the first sketch to the last handle.',
   openGraph: {
     title: `${studio.name} — ${studio.discipline}`,
     description: 'A Lisbon studio working across architecture and interiors.',

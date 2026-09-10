@@ -20,6 +20,16 @@ export function CurvedHeading({
 }) {
   const pathId = `arc-${useId().replace(/[^a-zA-Z0-9]/g, '')}`;
 
+  // The arc below spans 104 degrees of an r=433 circle, so it is r*theta = 786
+  // viewBox units long. The heading is built from studio content, so its length
+  // moves with the copy — past ~33 characters the default 38 would run off both
+  // ends of the dome. Step the size down to fit instead; short headings are
+  // unaffected because the cap keeps whatever was passed in.
+  const ARC_LENGTH = 433 * ((104 * Math.PI) / 180);
+  const ARC_FILL = 0.92;
+  const ADVANCE_EM = 0.63; // uppercase glyph width in the display face, in em
+  const fittedSize = Math.min(fontSize, (ARC_LENGTH * ARC_FILL) / (text.length * ADVANCE_EM));
+
   return (
     <svg
       viewBox="0 0 1000 250"
@@ -42,7 +52,7 @@ export function CurvedHeading({
         fill="currentColor"
         style={{
           fontFamily: 'var(--font-display), Georgia, serif',
-          fontSize,
+          fontSize: fittedSize,
           letterSpacing: '0.01em',
         }}
       >
