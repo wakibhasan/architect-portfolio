@@ -6,7 +6,7 @@ import { gsap, useGSAP } from '@/lib/gsap';
 import { MediaImage } from '@/components/ui/MediaImage';
 import { RevealText } from '@/components/ui/RevealText';
 import { mosaicRows, projects } from '@/content/projects';
-import { SCRUB, MM, STAGGER } from '@/lib/motion-tokens';
+import { SCRUB, MM } from '@/lib/motion-tokens';
 
 /**
  * Section 3 — the bloom3d.studio "Featured Projects" treatment (TECH-PLAN §4.3).
@@ -48,22 +48,9 @@ export function PortfolioMosaic() {
       mm.add(MM.desktopMotion, () => {
         const cells = gsap.utils.toArray<HTMLElement>('[data-mosaic-cell]');
 
-        // Reveal in threes regardless of the row shape. Batching by index
-        // rather than by a row wrapper is what lets the grid stay flat.
+        // Tiles are painted as they are — no entrance animation. The only
+        // scroll-linked movement left is the drift inside each frame.
         cells.forEach((cell, i) => {
-          gsap.fromTo(
-            cell,
-            { clipPath: 'inset(0 0 100% 0)', yPercent: 6 },
-            {
-              clipPath: 'inset(0 0 0% 0)',
-              yPercent: 0,
-              duration: 1.15,
-              ease: 'diveIn',
-              delay: (i % 3) * STAGGER.base,
-              scrollTrigger: { trigger: cell, start: 'top 92%', once: true },
-            },
-          );
-
           // Slow drift inside the frame, offset per column so neighbours never
           // move in lockstep.
           gsap.fromTo(
@@ -96,9 +83,6 @@ export function PortfolioMosaic() {
 
         return () => handlers.forEach((fn) => fn());
       });
-
-      // Caption and scrim are CSS-only below md, so nothing to set here.
-      mm.add(MM.mobile, () => gsap.set('[data-mosaic-cell]', { clipPath: 'none' }));
 
       return () => mm.revert();
     },
