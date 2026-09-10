@@ -110,7 +110,6 @@ export default async function ProjectPage({ params }: { params: Promise<RoutePar
               }
               amount={-14}
               clip
-              cursor="VIEW"
             />
           ))}
         </div>
@@ -122,7 +121,6 @@ export default async function ProjectPage({ params }: { params: Promise<RoutePar
           <span className="t-label-sm mb-8 block opacity-60">Next project</span>
           <Link
             href={`/projects/${next.slug}`}
-            data-cursor="VIEW"
             className="group flex flex-col gap-8 md:flex-row md:items-center md:gap-[4vw]"
           >
             <MediaImage

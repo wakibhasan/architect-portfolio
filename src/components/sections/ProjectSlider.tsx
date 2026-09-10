@@ -137,7 +137,6 @@ export function ProjectSlider() {
         <div
           data-slide-panel
           className="relative h-[62vh] w-full max-w-[84vw] overflow-hidden md:h-[70vh]"
-          data-cursor="DRAG"
         >
           <MediaImage
             image={project.hero}

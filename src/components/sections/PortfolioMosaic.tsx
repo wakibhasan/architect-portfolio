@@ -122,7 +122,6 @@ export function PortfolioMosaic() {
             key={`${cell.key}-${i}`}
             href={`/projects/${projects[i % projects.length].slug}`}
             data-mosaic-cell
-            data-cursor="VIEW"
             /* Explicitly bone: the caption sits on a dark scrim over the
                image, so it cannot inherit the section's colour now that the
                section is light — it would be dark text on a dark scrim. */

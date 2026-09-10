@@ -20,7 +20,6 @@ type Props = {
   clip?: boolean;
   /** Slow zoom-out across the scroll range (Ken Burns). */
   zoom?: boolean;
-  cursor?: string;
 };
 
 /**
@@ -37,7 +36,6 @@ export function ParallaxImage({
   amount = -12,
   clip = false,
   zoom = false,
-  cursor,
 }: Props) {
   const root = useRef<HTMLDivElement>(null);
 
@@ -95,7 +93,6 @@ export function ParallaxImage({
     <div
       ref={root}
       className={cn('relative overflow-hidden', wrapperClassName)}
-      data-cursor={cursor}
       style={clip ? { clipPath: 'inset(0 0 100% 0)' } : undefined}
     >
       <div data-parallax-inner className="absolute inset-0 scale-[1.18]">

@@ -138,7 +138,6 @@ export function ImageScrollSlider() {
               <figure
                 key={d.key}
                 data-track-card
-                data-cursor="VIEW"
                 className="w-[72vw] shrink-0 sm:w-[52vw] md:w-[34vw]"
               >
                 <MediaImage

@@ -5,7 +5,6 @@ import './globals.css';
 import { SmoothScroll } from '@/components/providers/SmoothScroll';
 import { ThemeController } from '@/components/providers/ThemeController';
 import { Nav } from '@/components/layout/Nav';
-import { CustomCursor } from '@/components/layout/CustomCursor';
 import { studio } from '@/content/studio';
 
 const display = Bodoni_Moda({
@@ -70,7 +69,6 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
         <SmoothScroll>
           <ThemeController />
           <Nav />
-          <CustomCursor />
           <main>{children}</main>
         </SmoothScroll>
       </body>
