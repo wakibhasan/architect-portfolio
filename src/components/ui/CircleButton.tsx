@@ -13,7 +13,7 @@ import { cn } from '@/lib/cn';
 export function CircleButton({
   children,
   href,
-  ring = 'VERRA ATELIER · VERRA ATELIER · ',
+  ring = 'ARCHITECT PORTFOLIO · ',
   size = 168,
   className,
 }: {
@@ -60,7 +60,10 @@ export function CircleButton({
     >
       <span className="absolute inset-0 rounded-full border border-current opacity-45 transition-opacity duration-500 group-hover:opacity-90" />
       <span className="absolute inset-0 scale-90 rounded-full bg-current opacity-0 transition-all duration-500 ease-[cubic-bezier(.25,1,.5,1)] group-hover:scale-100 group-hover:opacity-100" />
-      <svg viewBox="0 0 100 100" className="absolute inset-0 h-full w-full animate-spin-slow opacity-70">
+      <svg
+        viewBox="0 0 100 100"
+        className="absolute inset-0 h-full w-full animate-spin-slow opacity-70 transition-colors duration-500 group-hover:text-[color:var(--on-fg)]"
+      >
         <defs>
           <path id={pathId} d="M50,50 m-41,0 a41,41 0 1,1 82,0 a41,41 0 1,1 -82,0" fill="none" />
         </defs>
@@ -68,7 +71,7 @@ export function CircleButton({
           <textPath href={`#${pathId}`}>{ring}</textPath>
         </text>
       </svg>
-      <span className="t-label-sm relative z-10 max-w-[62%] text-center leading-[1.5] transition-colors duration-500 group-hover:text-[color:var(--bg)] group-hover:mix-blend-normal">
+      <span className="t-label-sm relative z-10 max-w-[62%] text-center leading-[1.5] transition-colors duration-500 group-hover:text-[color:var(--on-fg)] group-hover:mix-blend-normal">
         {children}
       </span>
     </Link>

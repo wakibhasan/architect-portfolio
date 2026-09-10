@@ -87,7 +87,7 @@ export function Preloader() {
 
       <span className="split-line-mask">
         <span data-pre-inner className="t-label block">
-          VERRA ATELIER — LISBOA
+          ARCHITECT PORTFOLIO — LISBOA
         </span>
       </span>
 
