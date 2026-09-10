@@ -95,18 +95,25 @@ export function Hero() {
         // viewport floor. Land short of it and the dive stops on sky with the
         // foreground cropped away; overshoot and the plate lifts off the bottom
         // of the frame. Re-derive it if the plate's height changes.
+        // Durations are explicit for a reason. Under a scrub it is the timeline's
+        // TOTAL length that the scroll range maps onto, so an omitted duration
+        // does not mean "fill the range" — it means GSAP's 0.5 default, and the
+        // longest tween silently decides everyone's share. Left implicit, the
+        // plate got 0.5 of a 0.8 timeline and so landed at 62.5% of the descent,
+        // freezing the frame for the ~700px until the arch reached the floor.
+        // The plate must be the full 1, so it lands exactly as the arch arrives.
         tl.fromTo(
           '[data-hero-plate]',
           { yPercent: 0, scale: 1.08 },
-          { yPercent: -47.37, scale: 1, ease: 'none' },
+          { yPercent: -47.37, scale: 1, ease: 'none', duration: 1 },
           0,
         )
-          .fromTo('[data-hero-clouds]', { yPercent: 0, autoAlpha: 0.9 }, { yPercent: -60, autoAlpha: 0, ease: 'none' }, 0)
-          .to('[data-hero-copy]', { yPercent: -30, autoAlpha: 0, ease: 'none' }, 0)
+          .fromTo('[data-hero-clouds]', { yPercent: 0, autoAlpha: 0.9 }, { yPercent: -60, autoAlpha: 0, ease: 'none', duration: 0.55 }, 0)
+          .to('[data-hero-copy]', { yPercent: -30, autoAlpha: 0, ease: 'none', duration: 0.5 }, 0)
           .fromTo(
             '[data-hero-reveal], [data-hero-hotspots]',
             { autoAlpha: 0 },
-            { autoAlpha: 1, ease: 'none' },
+            { autoAlpha: 1, ease: 'none', duration: 0.4 },
             0.3,
           );
 
