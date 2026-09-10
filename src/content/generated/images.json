@@ -1,0 +1,408 @@
+{
+  "hero-day": {
+    "src": "/images/hero-day.jpg",
+    "width": 1920,
+    "height": 1728,
+    "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoQAA4AAwBSJbACdAEOy6IbNUAA/ruadvQ2oBP4+dyhUKSri4/WryPECq9kgor2cfG0G4AA",
+    "alt": "Courtyard and pool of a Verra Atelier residence in daylight"
+  },
+  "hero-night": {
+    "src": "/images/hero-night.jpg",
+    "width": 1920,
+    "height": 1728,
+    "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAQAgCdASoQAA4AAwBSJbACdAEO45XzuoeoAP4hd5Tp0UG0qTHhPlwNyjZID429V65CPTZgpP5AAA==",
+    "alt": "The same courtyard after dusk, lit from within"
+  },
+  "hero-sky": {
+    "src": "/images/hero-sky.webp",
+    "width": 1546,
+    "height": 960,
+    "blurDataURL": "data:image/webp;base64,UklGRvIAAABXRUJQVlA4WAoAAAAQAAAADwAACQAAQUxQSIoAAAANuYzof8Bx20iO1N01fvMP817+2gIbRcQEKEzagEnnLZQwGBZhXp4Ug0aAYIwQAGacScmUDoAoxZZBuKDUn4PNhB8VYFs6dyeV7s2oEAybJkiFQfkLKam/LwXT0nRTFx4uHTMvyrDufoszL8cyFOVAQClDSEUwsiyDICKkUgIhhwnNNnUppQIuEQJWUDggQgAAAPABAJ0BKhAACgADAFIlpAACnaY+esYqAAD+9mFde9Hx6j8+zqeYMeQbsRzVuHXqGzhxHedXnLzspahJ5z7VJ4AAAA==",
+    "alt": "Open sky above the site"
+  },
+  "statement": {
+    "src": "/images/statement.jpg",
+    "width": 1499,
+    "height": 2000,
+    "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACQAwCdASoQABUAPt1cpkyopSOiMAgBEBuJZQCdAB5l90+xi9MAAP7XbDXILGyxYMcizAWaMPUhQFsDKOrkWpRC379TijhcsC5k5IAizyiMoAAA",
+    "alt": "Aerial view of a residential tower at golden hour"
+  },
+  "mosaic-01": {
+    "src": "/images/mosaic-01.jpg",
+    "width": 1600,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACQAwCdASoQABMAPt1ap0yopSOiMAgBEBuJZQCw7B6QxPrTvgjAAP3SEJXjegAHHJu3LbdMLulfFiDbrriRm45xPlnjsAUCdjSUAAAA",
+    "alt": "Terraced pavilion set into a hillside"
+  },
+  "mosaic-02": {
+    "src": "/images/mosaic-02.jpg",
+    "width": 1920,
+    "height": 1088,
+    "blurDataURL": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAQCdASoQAAkAAwBSJZwC7AD0igTjAAD+8YRzjWOgfO7h67WrvdIfgbDnLEoAAAA=",
+    "alt": "Circular pool ringed by a water curtain"
+  },
+  "mosaic-03": {
+    "src": "/images/mosaic-03.jpg",
+    "width": 1600,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACwAwCdASoQABMAPt0+s1SooiWjmAEQG4liALToGMVnO6vfCdffHAD+8N96cLVWdztm459qSgReptpMhyvNHOnQHLrcnqbub3sfchndedlugAAA",
+    "alt": "Pool terrace opening to the treeline"
+  },
+  "mosaic-04": {
+    "src": "/images/mosaic-04.jpg",
+    "width": 1533,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAwBACdASoQABQAPt1ep00opSOiMAgBEBuJZQCdACHgUdANkRqgyS7OOgAA/u6FNYh4SdoTd6y3f9xpexagj+/uuKY4LN0oSYxgAA==",
+    "alt": "Timber terrace with a built-in desk"
+  },
+  "mosaic-05": {
+    "src": "/images/mosaic-05.jpg",
+    "width": 1400,
+    "height": 1680,
+    "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACQAwCdASoQABMAPt1cp0yopSOiMAgBEBuJZQC7ABAJyzD876qAAP64opsiPmlMJeCt1PWluK1XEqx+mw4GVsoAAAA=",
+    "alt": "Kitchen in pale stone and oak"
+  },
+  "mosaic-06": {
+    "src": "/images/mosaic-06.jpg",
+    "width": 1920,
+    "height": 1280,
+    "blurDataURL": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADQAQCdASoQAAsAAwBSJQBdgCHUsOTmAAD+7sGE/jYsZuUmCe6U/BNcn60nDQAA",
+    "alt": "Timber house among pines"
+  },
+  "mosaic-07": {
+    "src": "/images/mosaic-07.jpg",
+    "width": 1920,
+    "height": 1152,
+    "blurDataURL": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoQAAoAAwBSJZwCw7CzUjsfaADiTh4Kp92IG5vU+OBlYL/4dvuj/t9txaAAAA==",
+    "alt": "Forest house in morning mist"
+  },
+  "mosaic-08": {
+    "src": "/images/mosaic-08.jpg",
+    "width": 1600,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAwCdASoQABMAPt1cp0yopSOiMAgBEBuJZwDImB4XVQcpvc01xsYAAP6yEzx2cFzphF58xk+M+funKgiPalIjedhbqiSFH+jOAAAA",
+    "alt": "Long low volume against open landscape"
+  },
+  "mosaic-09": {
+    "src": "/images/mosaic-09.jpg",
+    "width": 1600,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoQABMAPt1cpkyopSOiMAgBEBuJZwDMHB6HZqeq7aKRmYgA/XjDpDjAxTvJyGlUdxzmI4mMEdfPhvfZJXcKdabp9RkAAA==",
+    "alt": "Living room with a curved rattan ceiling"
+  },
+  "mosaic-10": {
+    "src": "/images/mosaic-10.jpg",
+    "width": 1600,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAwCdASoQABMAPt1cp0yopSOiMAgBEBuJZQC+SCPmV4beSTAgiyiAAP7qAFlbHZJADssz2j/Bh8wTm093Yi3JeLKQo/+83nfy8IMBZgA=",
+    "alt": "Poolside loungers seen from above"
+  },
+  "mosaic-11": {
+    "src": "/images/mosaic-11.jpg",
+    "width": 1600,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAABwAwCdASoQABMAPt1apkyopSOiMAgBEBuJQBWABDoIXpEWsiAA/T/vZOJ9OtENPuj+NRb9cGUo9dcXK5rmr6JctSl4MU0gAAA=",
+    "alt": "Blackened timber cabin on a ridge"
+  },
+  "mosaic-12": {
+    "src": "/images/mosaic-12.jpg",
+    "width": 1360,
+    "height": 1020,
+    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACQAQCdASoQAAwAAwBSJZwAAOr7AAAA4U422ihd5DCXnfW1JutwG8Y3pjbfLVa7o2XAqoUAAAA=",
+    "alt": "Lobby lounge with woven screens"
+  },
+  "mosaic-13": {
+    "src": "/images/mosaic-13.jpg",
+    "width": 2560,
+    "height": 1422,
+    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADwAQCdASoQAAkAAwBSJYwCdAEerHU/FEgA/om71x92XwY8FxlkaPRyn34+sGBGsMcKdlVyCAA=",
+    "alt": "Rooftop pool deck facing the sea"
+  },
+  "mosaic-14": {
+    "src": "/images/mosaic-14.jpg",
+    "width": 2400,
+    "height": 1627,
+    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACwAQCdASoQAAsAAwBSJQBOkERhSMQQAPozYJ5g5XNqTzhhi4iAbyJm3u44YmOa9mPGW/nMAAA=",
+    "alt": "Pool courtyard framed by planting"
+  },
+  "mosaic-15": {
+    "src": "/images/mosaic-15.jpg",
+    "width": 1920,
+    "height": 1440,
+    "blurDataURL": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoQAAwAAwBSJQBOgCGnsOgmMAD+tzZ/QwOC0n4Ybr2w2XhJDphiY7dadsAAAA==",
+    "alt": "Kitchen island in honed limestone"
+  },
+  "mosaic-16": {
+    "src": "/images/mosaic-16.jpg",
+    "width": 2560,
+    "height": 1428,
+    "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoQAAkAAwBSJYgCdADtD8FEAAD2EHOquo+zIt6fRPtXBoc5+CFIovyE1S2etlL7FgAAAA==",
+    "alt": "Living room opening to a sea view"
+  },
+  "mosaic-17": {
+    "src": "/images/mosaic-17.jpg",
+    "width": 2500,
+    "height": 1588,
+    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoQAAoAAwBSJaACdACySX7jAADeM7YgIWI93pcsKUmgqH83zF9d7G8w3n10KnvwAAA=",
+    "alt": "Early morning light across a courtyard"
+  },
+  "project-solene": {
+    "src": "/images/project-solene.jpg",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADQAQCdASoQAAsAAwBSJQBOgCHenqHYAAD44RM5xpk3NMIbgs3b8xlGfr3WNZzJEKjuOAAA",
+    "alt": "Casa Solene — terrace and sea beyond"
+  },
+  "project-solene-2": {
+    "src": "/images/project-solene-2.jpg",
+    "width": 2560,
+    "height": 1557,
+    "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABwAQCdASoQAAoAAwBSJQBOgArI6AD+rAfJIzLe3hUPXhNXDsZ0Emfir6/eMxqvKAxOfq0sPYwAAA==",
+    "alt": "Casa Solene — living pavilion"
+  },
+  "project-solene-3": {
+    "src": "/images/project-solene-3.jpg",
+    "width": 2560,
+    "height": 1814,
+    "blurDataURL": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACwAQCdASoQAAsAAwBSJQBOgBZM+3NoAP3+J0NZYdtiQrOWCPnaDepO03RaaViJwbJcYAAA",
+    "alt": "Casa Solene — stair and courtyard"
+  },
+  "project-marsa": {
+    "src": "/images/project-marsa.jpg",
+    "width": 2560,
+    "height": 1586,
+    "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADwAQCdASoQAAoAAwBSJQBOgBZogMpOyAAA/qN9GOcZNL9uz08I6Mb4nWmH62S4j0YQXisxo2vwAA==",
+    "alt": "Marsa Terraces — arrival court"
+  },
+  "project-marsa-2": {
+    "src": "/images/project-marsa-2.jpg",
+    "width": 2560,
+    "height": 1706,
+    "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoQAAsAAwBSJZgCdACq9BJYQAD+YSs/QSa0x8e+YVkdyjgM6kXBBRPIJOiqex1a3KwJuMrUIHHCut1AAAA=",
+    "alt": "Marsa Terraces — upper lounge"
+  },
+  "project-tulum": {
+    "src": "/images/project-tulum.jpg",
+    "width": 2400,
+    "height": 1601,
+    "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoQAAsAAwBSJaACdADc9qjoYAD79VgO9Ii1EcrFQWqi7Zkng6VPHaS+1Szc7R4G6tEkAAAA",
+    "alt": "Selva House — open-air dining room"
+  },
+  "project-tulum-2": {
+    "src": "/images/project-tulum-2.jpg",
+    "width": 2400,
+    "height": 1601,
+    "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoQAAsAAwBSJZgCdAEMK6y7AAD+qs0mvzp0QlKqDnuqZtuHuYXjoom2x8WPCrml0yrLaCaGzWgAAA==",
+    "alt": "Selva House — courtyard at dusk"
+  },
+  "project-surfside": {
+    "src": "/images/project-surfside.jpg",
+    "width": 2560,
+    "height": 1422,
+    "blurDataURL": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADQAQCdASoQAAkAAwBSJQBOgCHZhzUIAADcvXC4TgF02//GVxm9e2bjIVY4YgAA",
+    "alt": "Linea Residences — indoor pool hall"
+  },
+  "project-surfside-2": {
+    "src": "/images/project-surfside-2.jpg",
+    "width": 2560,
+    "height": 1600,
+    "blurDataURL": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAAAQAgCdASoQAAoAAwBSJYwCdAD0g9TLxN0AAP6rZ7m6wmeofnYXyCd6JEKE+Fc5agA=",
+    "alt": "Linea Residences — balcony over the water"
+  },
+  "project-chedi": {
+    "src": "/images/project-chedi.jpg",
+    "width": 1920,
+    "height": 1080,
+    "blurDataURL": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADwAQCdASoQAAkAAwBSJQBOgCHv2iL/4oAA9kPZMnxEchlDDn0pigwGfClQ7SAUL5eg4AAA",
+    "alt": "Atelier Nord — reading room"
+  },
+  "project-chedi-2": {
+    "src": "/images/project-chedi-2.jpg",
+    "width": 2560,
+    "height": 1440,
+    "blurDataURL": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAACwAQCdASoQAAkAAwBSJZwC7ADGKDYAAP7xbRWE+UJAUctl+G3vAOfy+AAAAA==",
+    "alt": "Atelier Nord — courtyard colonnade"
+  },
+  "arch-01": {
+    "src": "/images/arch-01.jpg",
+    "width": 1920,
+    "height": 2403,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACQAwCdASoQABQAPt1apkyopSOiMAgBEBuJQBYdgoc1ILx8+jAAAPzhqnC6I5GUnqq054mLpQrEMaV3AUV/STdV4yYDgG+xR/Cau1WycYQWSs/538LAAA==",
+    "alt": "Roof terrace with a planted pergola"
+  },
+  "arch-02": {
+    "src": "/images/arch-02.jpg",
+    "width": 1920,
+    "height": 1491,
+    "blurDataURL": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAAAQAgCdASoQAAwAAwBSJZAC7ADx+tQgjZ6AAP6pKHfaiWyIeNaFOFP4N1Uq+vdg9a+Cq+AA",
+    "alt": "Garden walk between stone volumes"
+  },
+  "arch-full": {
+    "src": "/images/arch-full.jpg",
+    "width": 1920,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACwAwCdASoQABUAPt1cpkyopSOiMAgBEBuJYgAAN7gzaC+GajOKCAD+8dfL1bjY/Ei8UsiUR1FOR5c6gfNk4gDbC7tuTQfCfvNAxcIwpGGsOMqVsaAAAA==",
+    "alt": "Facade in travertine and climbing planting"
+  },
+  "leaf-01": {
+    "src": "/images/leaf-01.webp",
+    "width": 1080,
+    "height": 1080,
+    "blurDataURL": "data:image/webp;base64,UklGRhgBAABXRUJQVlA4WAoAAAAQAAAADwAADwAAQUxQSKQAAAANuS5E9D80UFzbVvbkLzNp7vyHVF/FzIwz2DdP39zqm/OpMjOoLxETkHsbOL5l2pQFwyYNcWAPDi1G0UTsAikIdyebaYeDbFtmqlVCghRG3Hq7n4J9C1mQCidUYgOsK2RGlbGq038bgzkjzHRf7q2uey0xmNHhcs3Pz9O333stwUdS7iu71b0CoFxldf99K3COXusupf4WJwehDxOnvP4Yp1dcFFZQOCBOAAAAEAIAnQEqEAAQAAMAUiWwAnQAzp1dpZxZAAD+70t1bFxCrfVeUUDYrc61Y5B/ra/s7+j+gz/6w9pV/2qtVC7/7PI15MO++bJuR27aAAAA",
+    "alt": ""
+  },
+  "leaf-02": {
+    "src": "/images/leaf-02.webp",
+    "width": 1080,
+    "height": 1080,
+    "blurDataURL": "data:image/webp;base64,UklGRigBAABXRUJQVlA4WAoAAAAQAAAADwAADwAAQUxQSKwAAAANuS5E9D80cCRJUu3EF0sW6/4HZGbmG9SIrN+xcv9EP/eFGD+ZERMwAccb4NihA7u2LVgzbtqkCUMEDJCG6T5WfPkI523FINmZ0jkIxY7yMurlHgtsMrKoT1KMS1soSqcDrPvd43BC+6Ua0zRLssTLi1ys9xH7YBHZeXppNSVpVRvqOqtn8+LO/VcxVFG9tEu+8OI2wDxFq/b9iwnOz8h2GLukL3jCSEDhUnG7VlA4IFYAAADQAQCdASoQABAAAwBSJbACdACDiGWxSAD+7LtnF/pVsnkyvVRaMkOeg2cmVc/mJcRa1R+dGKT5KZltmbgitgZGRsPn/an50DobHr2CnCF4Zos72K8AAA==",
+    "alt": ""
+  },
+  "leaf-03": {
+    "src": "/images/leaf-03.webp",
+    "width": 1080,
+    "height": 1080,
+    "blurDataURL": "data:image/webp;base64,UklGRtYAAABXRUJQVlA4WAoAAAAQAAAADwAADwAAQUxQSG8AAAANcBrbtqucc+97j9B/TSgaAI/O4cV7HIoCImICgvhVRDfnDwSupTggkYQAXnLKJhBQANRZnsjkq3bLGPMoMvLOP4/qO2vfA22FFdUWyW3O0xpDjGAuayiX+6iTs639xqNGsZgjuBoTEUsAJEAh/G0AVlA4IEAAAACQAQCdASoQABAAAwBSJbGDrRgAqkAA/u/qcT1O/0k3bP/kP0+CbDwQmg9uP/m6N4P/ir/uq78DVJnzubdiHEAA",
+    "alt": ""
+  },
+  "leaf-04": {
+    "src": "/images/leaf-04.webp",
+    "width": 1080,
+    "height": 1080,
+    "blurDataURL": "data:image/webp;base64,UklGRu4AAABXRUJQVlA4WAoAAAAQAAAADwAADwAAQUxQSIUAAAABuTJE9D/gqrZtVdlXH17AWjAoQP8g7nJ1I+d+USBiAiYA4VfxppbWVhZGDJAJkiSzPENpiBUBUMPo6YHgKcoaijfQQy9PQUszPIOSICNNAiCFkqcILIkIIDg6eqgMCah6Otg5C4ga1cPG1p3maJVE0dHGlTPRYzQgurkpHE0BkqjKCvhTAFZQOCBCAAAA8AEAnQEqEAAQAAMAUiWwAnQBCqXKc7gAAP71cHzudEXtcXuOlnb9O1zg7+PP/Z1Tf1eKwuLdkQxHHctJ5srYcAAA",
+    "alt": ""
+  },
+  "detail-01": {
+    "src": "/images/detail-01.jpg",
+    "width": 1023,
+    "height": 617,
+    "blurDataURL": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAAAQAgCdASoQAAoAAwBSJZQCdAD0kAoAa3tgAP7vZ3M0g/wJvNXQYkANDTx74H9/YQaHt0AA",
+    "alt": "Camel-toned stone floor detail"
+  },
+  "detail-02": {
+    "src": "/images/detail-02.jpg",
+    "width": 622,
+    "height": 720,
+    "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACQAwCdASoQABMAPt1cpkyopSOiMAgBEBuJYwAANm3YOf57VRZwAOf+j1ifaGjwBz4/cqWM/v6DzxAoQg8WFy72Plfq5T4AAAA=",
+    "alt": "Warm veined stone surface"
+  },
+  "detail-03": {
+    "src": "/images/detail-03.jpg",
+    "width": 2000,
+    "height": 1324,
+    "blurDataURL": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADwAQCdASoQAAsAAwBSJZwC7AD0RzzgcSAA/tOIipsky5vh8Kw1ynp/osVby+x3GkKNASAA",
+    "alt": "Joinery detail in oak"
+  },
+  "detail-04": {
+    "src": "/images/detail-04.jpg",
+    "width": 2000,
+    "height": 1954,
+    "blurDataURL": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACwAQCdASoQABAAAwBSJZwAAudYFg1oAP7vxJcFJZ1GU96gP/blYIzlPlGcrmaOKXdTAAAA",
+    "alt": "Reveal between wall and ceiling plane"
+  },
+  "detail-05": {
+    "src": "/images/detail-05.jpg",
+    "width": 2000,
+    "height": 1480,
+    "blurDataURL": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAACwAQCdASoQAAwAAwBSJZQCdADy9fIAAP6vnqf3DQ9rR4G3n2/xsX2HpLQAAA==",
+    "alt": "Threshold detail in brushed metal"
+  },
+  "detail-06": {
+    "src": "/images/detail-06.jpg",
+    "width": 2000,
+    "height": 1398,
+    "blurDataURL": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoQAAsAAwBSJaQAAlu0UNhFAAD+6oaW5jO1y2BsHDFjuJaVx0W0ROuu3yAAAA==",
+    "alt": "Stair edge and handrail junction"
+  },
+  "detail-07": {
+    "src": "/images/detail-07.jpg",
+    "width": 2489,
+    "height": 1400,
+    "blurDataURL": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAACQAQCdASoQAAkAAwBSJZwAAV7aXAAA/tOWT85AwKZ3QUGEsWBLM/WwAAA=",
+    "alt": "Bathroom in single-slab stone"
+  },
+  "detail-08": {
+    "src": "/images/detail-08.jpg",
+    "width": 2489,
+    "height": 1400,
+    "blurDataURL": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAADQAQCdASoQAAkAAwBSJYwAAu1g8zJuAAD+7/GE+5l1WoHBJ4Thz03F5mAAAA==",
+    "alt": "Seating detail against a linen wall"
+  },
+  "reason-01a": {
+    "src": "/images/reason-01a.jpg",
+    "width": 1920,
+    "height": 1745,
+    "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQAA8AAwBSJQBOgB6MiuSlpAAA/tcs+hQcFWbTF87gvHSPh5i45vtSqh8VRLuAk2+9vttQCAhnAAAA",
+    "alt": "Pool court in late afternoon"
+  },
+  "reason-01b": {
+    "src": "/images/reason-01b.jpg",
+    "width": 1920,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQBACdASoQABUAPt1cp00opSOiMAgBEBuJZACdABuxJlQBqIbsX+MzAAD+BbTsPL+07zVCxTXx/kVKyXEPXD9QB2BTPTMQ8qKFT+uyNyzyTp2/i1VfHGoxWiEE3cC0UAgAAA==",
+    "alt": "Planted terraces stepping down the slope"
+  },
+  "reason-02a": {
+    "src": "/images/reason-02a.jpg",
+    "width": 1920,
+    "height": 1440,
+    "blurDataURL": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADQAQCdASoQAAwAAwBSJaACdAC9hWzBgAD+xrM196H8lxke9MsHFm7dWvusdkOFM71BcAAA",
+    "alt": "Spa hall lit from a clerestory"
+  },
+  "reason-02b": {
+    "src": "/images/reason-02b.jpg",
+    "width": 1417,
+    "height": 1721,
+    "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQBACdASoQABMAPt1ep00opSOiMAgBEBuJZwAAXltqg2dFyZk1d/CCgAD+3z+DRA83ugDWNeUNbJ86DHvN6rGCi0PFZ/wyUfULwSXKC40VUcAA",
+    "alt": "Residential lobby with a stone stair"
+  },
+  "reason-03a": {
+    "src": "/images/reason-03a.jpg",
+    "width": 2560,
+    "height": 1548,
+    "blurDataURL": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAABQAgCdASoQAAoAAwBSJZQCdH8AGEab3hXL6gAA9Gp8K0DhNFycogNYw/9ZRGAT+6YAAA==",
+    "alt": "Facade close-up showing the balcony rhythm"
+  },
+  "reason-03b": {
+    "src": "/images/reason-03b.jpg",
+    "width": 1920,
+    "height": 1248,
+    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoQAAoAAwBSJZACdADuL8+OYAD2gd+ijQgVqs/DT+3UUb14rDWz5YteDFq5ZD1MAAA=",
+    "alt": "Site plan seen from above"
+  },
+  "quote-bg": {
+    "src": "/images/quote-bg.jpg",
+    "width": 1920,
+    "height": 1440,
+    "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAgCdASoQAAwAAwBSJYgCdADPAHyFHgwAAP7rK122zOK+jnQWXOLyJcea4kGznFRci/12I7vJG6MoAAA=",
+    "alt": "Reflecting pool at golden hour"
+  },
+  "contact-bg": {
+    "src": "/images/contact-bg.jpg",
+    "width": 1920,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAACwAwCdASoQABQAPt1ap0yopSOiMAgBEBuJQBdgA9imczD7xCU84AD+j17UDLzR9hE0eZwAKieT33Pw0Uxy8h7vk+drse20nPS/fcLvbEPMgUoIyRyccLUgAAA=",
+    "alt": "Table laid on a shaded terrace"
+  },
+  "team-01": {
+    "src": "/images/team-01.jpg",
+    "width": 1500,
+    "height": 1494,
+    "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAwAgCdASoQABAAAwBSJZQCdAD0kDWlh3/kPAD++Lo+FBfsod+dBYr/6DkwcnhfrS/CBX/YpeTAeNwV3hnhSAAA",
+    "alt": "Portrait of a studio director"
+  },
+  "team-02": {
+    "src": "/images/team-02.jpg",
+    "width": 1903,
+    "height": 1903,
+    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoQABAAAwBSJQBOgBjL1YVAAAD+9xEtrKbiiKzUuOXNwc4rjlcThQIpVHpNl0EMAAA=",
+    "alt": "Portrait of an associate architect"
+  },
+  "team-03": {
+    "src": "/images/team-03.jpg",
+    "width": 1000,
+    "height": 1407,
+    "blurDataURL": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAABQBACdASoQABYAPt1epkyopSOiMAgBEBuJYwCdAB6QRwIwxt3tmpykHpAAAP7v1zgR3s/FLPCNLnrjFoTkTAFPJ1J1FnGRAz+WNYsOfZkjv+HDeS5p5Y4PffggHqeTgZ40rGQi34b9x9l0ovXWuYAA",
+    "alt": "Portrait of a project lead"
+  }
+}

@@ -1,26 +1,277 @@
 @import "tailwindcss";
 
+/* ==========================================================================
+   VERRA ATELIER — design tokens
+   Palette: bone base, charcoal-green dark, terracotta accent.
+   Every section declares data-theme; nav, logo and scroll rail read these
+   variables, so chrome inverts automatically. See TECH-PLAN.md §5.
+   ========================================================================== */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* raw palette */
+  --bone: #ede8df;
+  --bone-dim: #ddd5c7;
+  --ink: #12100e;
+  --forest: #131a16;
+  --forest-soft: #1b2420;
+  --sage: #c6cfc4;
+  --clay: #33201a;
+  --terracotta: #b4532a;
+  --terracotta-bright: #d97a4e;
+
+  /* live theme channel — overwritten by [data-theme] below */
+  --bg: var(--bone);
+  --fg: var(--ink);
+  --muted: #6b6459;
+  --accent: var(--terracotta);
+  --rule: rgb(18 16 14 / 0.16);
+
+  /* layout */
+  --gutter: clamp(1rem, 4vw, 4rem);
+  --rail: 5.5rem;
+  --nav-h: 4.5rem;
+}
+
+[data-theme="bone"] {
+  --bg: var(--bone);
+  --fg: var(--ink);
+  --muted: #6b6459;
+  --accent: var(--terracotta);
+  --rule: rgb(18 16 14 / 0.16);
+}
+
+[data-theme="dark"] {
+  --bg: var(--forest);
+  --fg: var(--bone);
+  --muted: #8e978c;
+  --accent: var(--terracotta-bright);
+  --rule: rgb(237 232 223 / 0.18);
+}
+
+[data-theme="sage"] {
+  --bg: var(--sage);
+  --fg: #14201a;
+  --muted: #4e5c50;
+  --accent: #8c3d1e;
+  --rule: rgb(20 32 26 / 0.2);
+}
+
+[data-theme="clay"] {
+  --bg: var(--clay);
+  --fg: var(--bone);
+  --muted: #a08c80;
+  --accent: var(--terracotta-bright);
+  --rule: rgb(237 232 223 / 0.16);
+}
+
+/* sections that sit on full-bleed photography */
+[data-theme="image"] {
+  --bg: transparent;
+  --fg: var(--bone);
+  --muted: rgb(237 232 223 / 0.72);
+  --accent: var(--bone);
+  --rule: rgb(237 232 223 / 0.3);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg: var(--bg);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-rule: var(--rule);
+
+  --color-bone: var(--bone);
+  --color-bone-dim: var(--bone-dim);
+  --color-ink: var(--ink);
+  --color-forest: var(--forest);
+  --color-forest-soft: var(--forest-soft);
+  --color-sage: var(--sage);
+  --color-clay: var(--clay);
+  --color-terracotta: var(--terracotta);
+
+  --font-display: var(--font-display);
+  --font-sans: var(--font-sans);
+  --font-script: var(--font-script);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+* {
+  min-width: 0;
+}
+
+html {
+  /* Lenis drives scrolling; native smooth would fight it */
+  scroll-behavior: auto;
+  background: var(--forest);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
+  transition: background-color 0.7s cubic-bezier(0.75, 0, 0.25, 1),
+    color 0.7s cubic-bezier(0.75, 0, 0.25, 1);
+}
+
+/* Lenis */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: clip;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--bone);
+}
+
+/* ==========================================================================
+   Type scale
+   ========================================================================== */
+
+.font-display {
+  font-family: var(--font-display), Georgia, serif;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+}
+
+.t-display {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: clamp(3.2rem, 12vw, 12rem);
+  line-height: 0.86;
+  letter-spacing: -0.03em;
+  font-weight: 400;
+}
+
+.t-h1 {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: clamp(2.6rem, 7.5vw, 7.5rem);
+  line-height: 0.92;
+  letter-spacing: -0.025em;
+  font-weight: 400;
+}
+
+.t-h2 {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: clamp(2rem, 4.4vw, 4.25rem);
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+}
+
+.t-quote {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: clamp(1.5rem, 3.3vw, 3.15rem);
+  line-height: 1.16;
+  letter-spacing: -0.015em;
+  font-weight: 400;
+}
+
+.t-body {
+  font-size: clamp(0.95rem, 1.05vw, 1.0625rem);
+  line-height: 1.65;
+  letter-spacing: -0.005em;
+}
+
+/* small-caps utility label used across the site */
+.t-label {
+  font-size: 0.6875rem;
+  line-height: 1.3;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.t-label-sm {
+  font-size: 0.625rem;
+  line-height: 1.3;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* ==========================================================================
+   Animation primitives
+   ========================================================================== */
+
+/* SplitText line masking — the mask wrapper hides the line until it rises */
+.split-line-mask {
+  overflow: hidden;
+  display: block;
+}
+
+/* Applied by ScrollTrigger on enter, removed on leave (TECH-PLAN §9) */
+.will-animate {
+  will-change: transform, opacity;
+}
+
+/* Elements animated by GSAP start hidden so there is no flash before hydration */
+[data-reveal] {
+  opacity: 0;
+}
+
+.hotspot-ping::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  border: 1px solid currentColor;
+  animation: ping 2.6s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+@keyframes ping {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  70%,
+  100% {
+    transform: scale(2.6);
+    opacity: 0;
+  }
+}
+
+@keyframes spin-slow {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 26s linear infinite;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+/* ==========================================================================
+   Reduced motion — kill scrub/parallax, keep the content visible
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
 }

@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local build artefacts
+.cache/
+
+# design reference material (not part of the site)
+/inspiration-screenshot/
