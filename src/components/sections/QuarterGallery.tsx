@@ -78,6 +78,17 @@ export function QuarterGallery() {
     <section
       ref={root}
       data-section-theme="bone"
+      /* Both attributes, for the reason spelled out on ThreeReasons' dome.
+         data-section-theme tells ThemeController what the page chrome should
+         become; data-theme redeclares --fg/--muted/--rule for this subtree.
+
+         This ground is bone whatever the page is doing, but the chrome only
+         switches once the section's top passes the viewport midpoint — and the
+         heading, eyebrow and body all sit above that line, so they were on
+         screen while the page still held ScrollSequence's "image" theme. The
+         body read --fg and rendered bone on bone at zero contrast; the eyebrow
+         (--muted) and the column rule (--rule) went translucent bone with it. */
+      data-theme="bone"
       /* Their .final-gallery-images-section__background is a
          linear-gradient(111.68deg,#f4e5dd,#d5d5d5) — a warm blush falling to
          grey. Same move in our palette. */

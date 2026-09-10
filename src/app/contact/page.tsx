@@ -13,8 +13,14 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <>
+      {/* data-theme as well as data-section-theme, per ThreeReasons' dome.
+          This ground is bone, but the clay closer below claims the page theme
+          the moment its midpoint wins — and the form's inputs read --fg, so
+          they turned bone on bone and the typing went invisible. Declaring the
+          palette here keeps the subtree bone whatever the page is doing. */}
       <section
         data-section-theme="bone"
+        data-theme="bone"
         className="relative bg-[color:var(--bone)] px-[var(--gutter)] pb-[12vh] pt-[24vh] text-[color:var(--ink)] md:pl-[calc(var(--rail)+var(--gutter))]"
       >
         <div className="grid gap-[8vh] md:grid-cols-12 md:gap-[4vw]">
@@ -60,7 +66,11 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <section data-section-theme="bone" className="bg-[color:var(--bone)] px-[var(--gutter)] pb-[6vh]">
+      <section
+        data-section-theme="bone"
+        data-theme="bone"
+        className="bg-[color:var(--bone)] px-[var(--gutter)] pb-[6vh]"
+      >
         <MediaImage
           image="mosaic-17"
           sizes="100vw"
